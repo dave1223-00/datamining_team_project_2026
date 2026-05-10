@@ -8,7 +8,7 @@ import re
 INPUT_CSV   = "joongna_002.csv"
 OUTPUT_CSV  = "joongna_extracted_02.csv"
 
-genai.configure(api_key="AIzaSyBwqjRNLisX4B24qIaDEgoofPYP3U_hnIw")  # ← API 키 입력
+genai.configure(api_key="@@API키@@")  # ← API 키 입력
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 BATCH_SIZE   = 10   # 한 번에 처리할 행 수 (토큰 여유 있으면 20까지 가능)
